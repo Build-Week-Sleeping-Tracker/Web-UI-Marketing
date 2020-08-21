@@ -25,10 +25,15 @@ time, mark, audio, video {
 
 /* General Style */
 
+
 html {
     font-size: 62.5%;
     color: #F2F2F2;
     font-family: sans-serif;
+}
+
+h1, h2, h3 {
+    font-size: 7rem;
 }
 
 a {
@@ -38,11 +43,12 @@ a {
 
 p {
     font-size: 2rem;
+    color: #E5E5E5;
 }
 
 
-/* Header Style */
 
+/* Header Style */
 header {
     background: #666666;
     display: flex;
@@ -87,7 +93,6 @@ nav a:hover {
 
 
 /* First Section Style */
-
 .sect1 {
     background: #000000;
     width: 100%;
@@ -102,7 +107,6 @@ nav a:hover {
 }
 
 .sect1-text h1 {
-    font-size: 7rem;
     margin-bottom: 5%;
     text-align: center;
 }
@@ -112,6 +116,9 @@ nav a:hover {
     margin-bottom: 7%;
 }
 
+.sect1-text a {
+    margin-top: 15%;
+}
 
 .sect1-text .signup {
     color: #F2F2F2;
@@ -157,4 +164,57 @@ nav a:hover {
     margin-top: 2%;
 }
 
+.sect2 {
+    background: #404040;
+    padding-top: 10%;
+    padding-bottom: 15%;
+}
+
+.sect2 h2{
+    text-align: center;
+    padding-bottom: 8%;
+}
+
+.sect2-body {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin-left: 5%;
+}
+
+
+.graph img {
+    width: 75%;
+    height: 80%;
+    border-radius: 2rem;
+}
+
+.graph p {
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+.rate img {
+    width: 70%;
+    height: 80%;
+    border-radius: 2rem;
+}
+
+.rate p {
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+.pattern img {
+    width: 100%;
+    height: 80%;
+    border-radius: 2rem;
+}
+
+.pattern p {
+    margin-top: 5%;
+    margin-left: 7%;
+    text-align: center;
+    line-height: 4rem;
+}
 
