@@ -146,7 +146,9 @@ nav a:hover {
     flex-direction: column;
     padding-top: 8%;
     padding-left: 5%;
+    width: 50%;
 }
+
 .sect1-img img {
     width: 80%;
     height: 80%;
