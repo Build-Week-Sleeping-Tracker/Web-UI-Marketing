@@ -87,3 +87,49 @@ nav a {
 nav a:hover {
     color: #B2B2B2;
 }
+
+
+
+footer {
+    background: #B2B2B2;
+    padding-top: 5%;
+}
+
+.social-container {
+	display: flex;
+	justify-content: space-evenly;
+    width: 30%;
+    margin: 0 auto;
+	margin-bottom: 3%;
+}
+
+.social-container a {
+	font-size: 4rem;
+	color: #F2F2F2;
+}
+
+.social-container a:hover {
+    color: #666666;
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.footer-content i {
+    font-size: 4rem;
+}
+.footer-content h2 {
+    font-size: 4rem;
+}
+
+footer p {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
