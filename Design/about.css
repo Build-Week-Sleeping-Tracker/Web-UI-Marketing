@@ -27,6 +27,7 @@ html {
     font-size: 62.5%;
     color: #F2F2F2;
     font-family: sans-serif;
+    background: #000000;
 }
 
 h1, h2, h3 {
@@ -41,6 +42,12 @@ a {
 p {
     font-size: 2rem;
     color: #E5E5E5;
+}
+
+img {
+    border: 0.1rem solid #F2F2F2;
+    border-radius: 3rem;
+    width: 30%;
 }
 
 
@@ -88,6 +95,38 @@ nav a:hover {
     color: #B2B2B2;
 }
 
+
+/* Main Body Styling */
+.opening-sect {
+    padding-top: 10%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.opening-sect h1 {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.opening-sect p {
+    text-align: center;
+    line-height: 4rem;
+}
+
+#team-info {
+    padding-top: 10%;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 5%;
+    border: 5px solid white;
+}
+
+.pl {
+    border: 2px solid white;
+
+}
 
 
 footer {
