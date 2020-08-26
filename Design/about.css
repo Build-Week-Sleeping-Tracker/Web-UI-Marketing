@@ -21,7 +21,7 @@ time, mark, audio, video {
 }
 
 
-
+@media (min-width: 82em) {
 /* General Style */
 html {
     font-size: 62.5%;
@@ -171,4 +171,5 @@ footer p {
     text-align: center;
     padding-top: 3%;
     padding-bottom: 5%;
+}
 }
