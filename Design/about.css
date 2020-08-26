@@ -19,10 +19,6 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-
-
-@media (min-width: 82em) {
-/* General Style */
 html {
     font-size: 62.5%;
     color: #F2F2F2;
@@ -40,18 +36,17 @@ a {
 }
 
 p {
-    font-size: 2rem;
+    font-size: 3rem;
     color: #E5E5E5;
 }
 
 img {
-    border: 0.1rem solid #F2F2F2;
     border-radius: 3rem;
-    width: 30%;
+    width: 50%;
+    border: 0.2rem solid ;
 }
 
-
-
+@media (min-width: 82em) {
 /* Header Style */
 header {
     background: #666666;
@@ -113,24 +108,28 @@ nav a:hover {
     line-height: 4rem;
 }
 
-#team-info {
+.team-info {
     padding-top: 10%;
+    margin: 0 auto;
     width: 90%;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-left: 5%;
-    border: 5px solid white;
+    flex-wrap: wrap;
 }
 
-.pl {
-    border: 2px solid white;
-
+.team-info section {
+    width: 25%;
+    margin-bottom: 10%;
+}
+.team-info p {
+    width: 40%;
+    margin-left: 5%;
+    text-align: center;
 }
 
 
 footer {
-    background: #B2B2B2;
+    background: #404040;
     padding-top: 5%;
 }
 
