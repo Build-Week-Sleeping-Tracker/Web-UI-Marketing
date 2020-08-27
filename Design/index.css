@@ -21,31 +21,30 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+/* General Style */
+html {
+    font-size: 62.5%;
+    color: #F2F2F2;
+    font-family: sans-serif;
+}
+
+h1, h2, h3 {
+    font-size: 7rem;
+}
+
+a {
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 2rem;
+    color: #E5E5E5;
+}
+
+
 /* Desktop breakpoint: starts at 1312px */
 @media (min-width: 82em) {
-/* General Style */
-    html {
-        font-size: 62.5%;
-        color: #F2F2F2;
-        font-family: sans-serif;
-    }
-
-    h1, h2, h3 {
-        font-size: 7rem;
-    }
-
-    a {
-        text-decoration: none;
-        font-size: 2rem;
-    }
-
-    p {
-        font-size: 2rem;
-        color: #E5E5E5;
-    }
-
-
-
 /* Header Style */
     header {
         background: #666666;
@@ -112,6 +111,7 @@ time, mark, audio, video {
     .sect1-text p {
         line-height: 3rem;
         margin-bottom: 7%;
+        margin-top: 10%;
     }
 
     .sect1-text a {
@@ -124,7 +124,8 @@ time, mark, audio, video {
         width: 25%;
         height: 5%;
         text-align: center;
-        padding: 2% 0% 2% 0%;
+        padding-top: 2%;
+        padding-bottom: 0.5%;
         margin-right: 20%;
         border-radius: 2rem;
         background: #39869D;
@@ -138,7 +139,7 @@ time, mark, audio, video {
         width: 25%;
         height: 5%;
         text-align: center;
-        padding: 2% 0% 2% 0%;
+        padding: 2% 0% 0.5% 0%;
     }
 
     .sect1-img {
