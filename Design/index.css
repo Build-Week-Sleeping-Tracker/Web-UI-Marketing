@@ -388,6 +388,10 @@ footer p {
     }
 
     /*Tablet Footer Style */
+    .social-container {
+        width: 60%;
+    }
+    
     .footer-content {
         width: 60%;
     }
